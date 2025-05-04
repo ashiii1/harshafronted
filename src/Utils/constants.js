@@ -11,7 +11,7 @@ import {
   FaCoins,
 } from "react-icons/fa";
 
-export const API_URL = "http://localhost:5000";
+export const API_URL = "https://innov8mate.onrender.com";
 export const stats = [
   { name: "Ideas supported", value: "100+" },
   { name: "Project collaborations", value: "300+" },
