@@ -26,7 +26,7 @@ import {
 import { API_URL } from "../Utils/constants";
 import axios from "axios";
 import { formatDistanceToNow } from "date-fns";
-import { projectChatSocket } from "../Services/socket";
+import { projectChatSocket } from "../services/socket";
 import { clearSelectedChatUser } from "../Utils/chatSlice";
 
 // Helper function to format last seen time

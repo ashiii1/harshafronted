@@ -21,7 +21,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 import { toast } from "react-hot-toast";
-import { projectChatSocket } from "../Services/socket";
+import { projectChatSocket } from "../services/socket";
 import { useDispatch } from "react-redux";
 import { setSelectedChatUser } from "../Utils/chatSlice";
 import {

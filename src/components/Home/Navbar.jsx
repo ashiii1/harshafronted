@@ -28,7 +28,7 @@ import {
   markAsRead,
   markAllAsRead,
 } from "../../Utils/notificationSlice";
-import { projectChatSocket } from "../../Services/socket.js";
+import { projectChatSocket } from "../../services/socket";
 
 // --- Notification Dropdown Component ---
 const NotificationDropdown = ({ closeDropdown }) => {
