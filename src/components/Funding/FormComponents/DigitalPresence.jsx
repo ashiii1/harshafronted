@@ -13,7 +13,7 @@ import {
 // Import shared helper component
 import { FormInput } from "./FormHelpers";
 
-// --- Remove Reusable Helper Components defined locally ---
+// --- Remove Reusable Helper components defined locally ---
 // const FormInput = (...) => { ... };
 
 // Reusable component for Press Mention Item

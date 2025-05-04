@@ -4,10 +4,10 @@
 /*
   Add the following imports at the top of the file:
   
-  import JobsDashBoard from "./Components/Jobs/JobsDashBoard.jsx";
-  import FreelancersExplore from "./Components/Jobs/FreelancersExplore.jsx";
-  import FreelancerProfile from "./Components/Jobs/FreelancerProfile.jsx"; 
-  import JobDescription from "./Components/Jobs/JobDescription.jsx";
+  import JobsDashBoard from "./components/Jobs/JobsDashBoard.jsx";
+  import FreelancersExplore from "./components/Jobs/FreelancersExplore.jsx";
+  import FreelancerProfile from "./components/Jobs/FreelancerProfile.jsx"; 
+  import JobDescription from "./components/Jobs/JobDescription.jsx";
 */
 
 /*

@@ -42,7 +42,7 @@ import { formatDistanceToNow } from "date-fns";
 import { Link, useNavigate } from "react-router-dom";
 
 // ==========================================================================
-// Helper Components
+// Helper components
 // ==========================================================================
 
 const ActionButton = ({ icon, label, count, onClick, active, color }) => {

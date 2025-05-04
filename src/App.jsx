@@ -4,12 +4,12 @@ import { Provider } from "react-redux";
 import appStore from "./Utils/appStore.js";
 import AppLayout from "../src/AppLayout.jsx";
 import HomeLayout from "./HomeLayout.jsx";
-// import CreatorInbox from "./Components/explore/CreatorInbox.jsx";
-import NotificationManager from "./Components/NotificationManager.jsx";
+// import CreatorInbox from "./components/explore/CreatorInbox.jsx";
+import NotificationManager from "./components/NotificationManager.jsx";
 import { Toaster } from "react-hot-toast";
 import NotificationsPage from "./Common/NotificationsPage.jsx";
 
-const Home = lazy(() => import("./Components/Home/Home.jsx"));
+const Home = lazy(() => import("./components/Home/Home.jsx"));
 const Error = lazy(() => import("./Common/Error.jsx"));
 const Contact = lazy(() => import("./Common/Contact.jsx"));
 const Workflow = lazy(() => import("./Common/Workflow.jsx"));
@@ -24,53 +24,53 @@ const ChatScreen = lazy(() => import("./Common/ChatScreen.jsx"));
 const PasswordReset = lazy(() => import("./Common/PasswordReset.jsx"));
 const TestPage = lazy(() => import("./Common/Test.jsx"));
 const CompanyDetailsPage = lazy(() =>
-  import("./Components/Funding/CompanyDetailsPage.jsx")
+  import("./components/Funding/CompanyDetailsPage.jsx")
 );
 const Connections = lazy(() => import("./Pages/Connections.jsx"));
 const Discover = lazy(() => import("./Pages/Discover.jsx"));
 
 const IdeasMainPage = lazy(() =>
-  import("./Components/Ideas/IdeasMainPage.jsx")
+  import("./components/Ideas/IdeasMainPage.jsx")
 );
-const PostIdea = lazy(() => import("./Components/Ideas/PostIdea.jsx"));
+const PostIdea = lazy(() => import("./components/Ideas/PostIdea.jsx"));
 const IdeaDescription = lazy(() =>
-  import("./Components/Ideas/IdeaDescription.jsx")
+  import("./components/Ideas/IdeaDescription.jsx")
 );
 
-const DashBoard = lazy(() => import("./Components/Funding/DashBoard.jsx"));
-const FounderForm = lazy(() => import("./Components/Funding/FounderForm.jsx"));
+const DashBoard = lazy(() => import("./components/Funding/DashBoard.jsx"));
+const FounderForm = lazy(() => import("./components/Funding/FounderForm.jsx"));
 
 const Postproject = lazy(() =>
-  import("./Components/Collaboration/Postproject.jsx")
+  import("./components/Collaboration/Postproject.jsx")
 );
 const DashBoardProjects = lazy(() =>
-  import("./Components/Collaboration/DashBoardProjects.jsx")
+  import("./components/Collaboration/DashBoardProjects.jsx")
 );
 const DescriptionProject = lazy(() =>
-  import("./Components/Collaboration/DescriptionProject.jsx")
+  import("./components/Collaboration/DescriptionProject.jsx")
 );
 
-const JobsPage = lazy(() => import("./Components/Jobs/JobsPageLinkedin.jsx"));
-const JobsDashBoard = lazy(() => import("./Components/Jobs/JobsDashBoard.jsx"));
-const Jobs = lazy(() => import("./Components/Jobs/Jobs.jsx"));
-const Freelancers = lazy(() => import("./Components/Jobs/Freelancers.jsx"));
+const JobsPage = lazy(() => import("./components/Jobs/JobsPageLinkedin.jsx"));
+const JobsDashBoard = lazy(() => import("./components/Jobs/JobsDashBoard.jsx"));
+const Jobs = lazy(() => import("./components/Jobs/Jobs.jsx"));
+const Freelancers = lazy(() => import("./components/Jobs/Freelancers.jsx"));
 const FreelancerRegistration = lazy(() =>
-  import("./Components/Jobs/FreelancerRegistration.jsx")
+  import("./components/Jobs/FreelancerRegistration.jsx")
 );
 const JobDescription = lazy(() =>
-  import("./Components/Jobs/JobDescription.jsx")
+  import("./components/Jobs/JobDescription.jsx")
 );
 const JobCreationForm = lazy(() =>
-  import("./Components/Jobs/JobCreationForm.jsx")
+  import("./components/Jobs/JobCreationForm.jsx")
 );
 const FreelancersExplore = lazy(() =>
-  import("./Components/Jobs/FreelancersExplore.jsx")
+  import("./components/Jobs/FreelancersExplore.jsx")
 );
 const FreelancerProfile = lazy(() =>
-  import("./Components/Jobs/FreelancerProfile.jsx")
+  import("./components/Jobs/FreelancerProfile.jsx")
 );
 
-const Explore = lazy(() => import("./Components/explore/Explore.jsx"));
+const Explore = lazy(() => import("./components/explore/Explore.jsx"));
 
 const App = () => {
   return (

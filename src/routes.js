@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "./Components/Home/Home.jsx";
+import Home from "./components/Home/Home.jsx";
 import Error from "./Common/Error.jsx";
 import Contact from "./Common/Contact.jsx";
 
@@ -9,25 +9,25 @@ import RegisterPage from "./Common/RegisterPage.jsx";
 import Leadership from "./Common/Leadership.jsx";
 import Profilepage from "./Common/Profilepage.jsx";
 
-import IdeasMainPage from "./Components/Ideas/IdeasMainPage.jsx";
-import PostIdea from "./Components/Ideas/PostIdea.jsx";
-import IdeaDescription from "./Components/Ideas/IdeaDescription.jsx";
+import IdeasMainPage from "./components/Ideas/IdeasMainPage.jsx";
+import PostIdea from "./components/Ideas/PostIdea.jsx";
+import IdeaDescription from "./components/Ideas/IdeaDescription.jsx";
 
-import DashBoard from "./Components/Funding/DashBoard.jsx";
-import FounderForm from "./Components/Funding/FounderForm.jsx";
+import DashBoard from "./components/Funding/DashBoard.jsx";
+import FounderForm from "./components/Funding/FounderForm.jsx";
 
-import Postproject from "./Components/Collaboration/Postproject.jsx";
-import DashBoardProjects from "./Components/Collaboration/DashBoardProjects.jsx";
-import DescriptionProject from "./Components/Collaboration/DescriptionProject.jsx";
+import Postproject from "./components/Collaboration/Postproject.jsx";
+import DashBoardProjects from "./components/Collaboration/DashBoardProjects.jsx";
+import DescriptionProject from "./components/Collaboration/DescriptionProject.jsx";
 
-import JobsPage from "./Components/Jobs/JobsPage.jsx";
-import JobDescription from "./Components/Jobs/JobDescription.jsx";
-import JobsDashBoard from "./Components/Jobs/JobsDashBoard.jsx";
-import FreelancersDashboard from "./Components/Jobs/FreelancersDashboard.jsx";
-import JobCreationForm from "./Components/Jobs/JobCreationForm.jsx";
-import FreelancerProfile from "./Components/Jobs/FreelancerProfile.jsx";
-import FreelancersExplore from "./Components/Jobs/FreelancersExplore.jsx";
-import FreelancerRegistration from "./Components/Jobs/FreelancerRegistration.jsx";
+import JobsPage from "./components/Jobs/JobsPage.jsx";
+import JobDescription from "./components/Jobs/JobDescription.jsx";
+import JobsDashBoard from "./components/Jobs/JobsDashBoard.jsx";
+import FreelancersDashboard from "./components/Jobs/FreelancersDashboard.jsx";
+import JobCreationForm from "./components/Jobs/JobCreationForm.jsx";
+import FreelancerProfile from "./components/Jobs/FreelancerProfile.jsx";
+import FreelancersExplore from "./components/Jobs/FreelancersExplore.jsx";
+import FreelancerRegistration from "./components/Jobs/FreelancerRegistration.jsx";
 
 import { AppLayout } from "./App.jsx";
 

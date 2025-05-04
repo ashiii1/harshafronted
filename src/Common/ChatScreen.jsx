@@ -84,7 +84,7 @@ const shouldShowDate = (messages, index) => {
   }
 };
 
-// --- Sub-Components (Simulating separate files) ---
+// --- Sub-components (Simulating separate files) ---
 
 // --- MessageItem.jsx ---
 const MessageItem = React.memo(({ message, currentUser }) => {

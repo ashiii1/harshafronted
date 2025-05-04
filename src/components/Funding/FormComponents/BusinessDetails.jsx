@@ -71,7 +71,7 @@ const businessDetailsSchema = z.object({
   //   .max(5, "Maximum 5 technology stack items allowed"),
 });
 
-// --- Reusable Helper Components (Assume consistent styling) ---
+// --- Reusable Helper components (Assume consistent styling) ---
 // ... (definitions previously here from lines ~70 to ~190) ...
 
 // Reusable component for Key Feature / Tech Stack Item

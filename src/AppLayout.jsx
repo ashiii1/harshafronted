@@ -1,6 +1,6 @@
-import Navbar from "./Components/Home/Navbar";
+import Navbar from "./components/Home/Navbar";
 import { Outlet } from "react-router-dom";
-import Footer from "./Components/Home/Footer";
+import Footer from "./components/Home/Footer";
 import axios from "axios";
 import { addUser } from "./Utils/userSlice.js";
 import { useDispatch, useSelector } from "react-redux";
