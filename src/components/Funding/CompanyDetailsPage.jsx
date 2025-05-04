@@ -1645,20 +1645,3 @@ const CompanyDetailsPage = () => {
 };
 
 export default CompanyDetailsPage;
-
-          </DetailSection>
-          <DetailSection
-            title="Contact Founder"
-            icon={ChatBubbleLeftRightIcon}
-            id="contact-founder"
-            subtitle="Reach out to express interest or request a meeting"
-          >
-            <ContactFounderForm company={company} />
-          </DetailSection>
-        </main>
-      </div>
-    </div>
-  );
-};
-
-export default CompanyDetailsPage;
